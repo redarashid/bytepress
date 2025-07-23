@@ -1,5 +1,5 @@
 import React from "react";
-import siteMetadata from "../components/data/siteMetadata";
+
 
 const MAX_DISPLAY = 5;
 const Main = ({ posts }) => {
@@ -21,7 +21,12 @@ const Main = ({ posts }) => {
             return (
               <li key={slug} className=" py-12">
                 <article>
-                  <div className=" space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0"></div>
+                  <div className=" space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt></dt>
+                      <dt></dt>
+                    </dl>
+                  </div>
                 </article>
               </li>
             );
